@@ -17,5 +17,5 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  puts "#{name}"
+  puts "#{name} #{katz_deli[0]}"
 end
