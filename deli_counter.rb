@@ -23,5 +23,5 @@ def take_a_number(katz_deli, name)
     name = "Welcome, #{name}. You are number #{i} in line."
     indexed_list << name
   end
-  puts indexed_list
+  return indexed_list
 end
