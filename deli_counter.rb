@@ -18,7 +18,7 @@ end
 
 def take_a_number(katz_deli, name)
   indexed_list=[]
-  katz_deli.each_with_index do |person="#{name}", i|
+  katz_deli.each_with_index do |name, i|
     i = i+1
     person = "Welcome, #{name}. You are number #{i} in line."
     indexed_list << person
