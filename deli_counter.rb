@@ -11,7 +11,7 @@ def line(katz_deli)
       name = "#{i} #{name}"
       deli_line << name
     end
-    puts "The line is currently: #{i} #{katz_deli[0]}"
+    puts "The line is currently: #{katz_deli[0]}"
   end
 end
 
