@@ -12,7 +12,7 @@ def line(katz_deli)
       deli_line << name
     end
   end
-  puts "The line is currently: #{deli_line[0]}"
+  puts "The line is currently: #{deli_line}"
 end
 
 def take_a_number(katz_deli, name)
