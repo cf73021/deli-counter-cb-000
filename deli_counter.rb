@@ -17,7 +17,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  indexed_list
+  indexed_list=[]
   katz_deli.each_with_index do |name, i|
     i = i+1
     name = "Welcome, #{name}. You are number #{i} in line."
