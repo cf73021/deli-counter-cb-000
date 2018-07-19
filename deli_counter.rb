@@ -6,6 +6,7 @@ def line(katz_deli)
     return "There is nobody waiting to be served!"
   else
     return "The line is currently: "
+  end
 end
 
 def take_a_number(katz_deli, name)
