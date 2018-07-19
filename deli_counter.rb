@@ -11,6 +11,7 @@ def line(katz_deli)
       name = "#{i}. #{name}"
       deli_line << name
     end
+    deli_line.join(" ")
     puts "The line is currently: #{deli_line[0]} #{deli_line[1]} #{deli_line[2]}"
   end
 end
