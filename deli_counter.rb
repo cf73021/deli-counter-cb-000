@@ -11,7 +11,7 @@ def line(katz_deli)
       name = "#{i}. #{name}"
       deli_line << name
     end
-    deli_line.join(" ")
+    deli_line = deli_line.join(" ")
     puts deli_line
   end
 end
