@@ -11,8 +11,8 @@ def line(katz_deli)
       name = "#{i}. #{name}"
       deli_line << name
     end
-    puts "The line is currently: #{deli_line[0]}"
   end
+  puts "The line is currently: #{deli_line[0]}"
 end
 
 def take_a_number(katz_deli, name)
