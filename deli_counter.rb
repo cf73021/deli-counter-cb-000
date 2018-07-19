@@ -20,7 +20,7 @@ def take_a_number(katz_deli, name)
   indexed_list=[]
   katz_deli.each_with_index do |name, i|
     i = i+1
-    name = "Welcome, #{name}. You are number #{i} in line."
+    person = "Welcome, #{name}. You are number #{i} in line."
     indexed_list << name
   end
   puts indexed_list
