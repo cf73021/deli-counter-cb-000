@@ -12,7 +12,7 @@ def line(katz_deli)
       deli_line << name
     end
     deli_line.join(" ")
-    puts "The line is currently: " + deli_line
+    puts deli_line
   end
 end
 
