@@ -22,5 +22,5 @@ def take_a_number(katz_deli, name)
     i = i+1
     name = "Welcome, #{name}. You are number #{i} in line."
   end
-  return katz_deli[-1]
+  puts katz_deli[-1]
 end
