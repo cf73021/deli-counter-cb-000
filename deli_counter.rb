@@ -14,5 +14,6 @@ def take_a_number(katz_deli, name)
     i = i+1
     name = "Welcome, #{name}. You are number #{i} in line."
     katz_indexed << name
+  end
   return katz_indexed[-1]
 end
