@@ -17,6 +17,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
+  new_deli = []
   katz_deli << name
   katz_deli.each_with_index do |person, i|
     i = i+1
