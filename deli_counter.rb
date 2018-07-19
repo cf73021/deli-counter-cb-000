@@ -18,5 +18,5 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
-  puts "#{name} #{katz_deli[-1]}"
+  puts "Welcome, #{name}. #{katz_deli[-1]}"
 end
